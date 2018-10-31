@@ -1,0 +1,12 @@
+[package]
+name = "diamonds-json"
+version = "0.1.0"
+authors = ["Jochen Görtler <jochen.goertler@uni-konstanz.de>"]
+edition = "2018"
+license = "BSD-3-Clause"
+
+[dependencies]
+csv = "*"
+serde = "*"
+serde_derive = "*"
+serde_json = "*"
